@@ -1,4 +1,43 @@
 @import 'colors';
 @import '../lib/w3';
-
-
+@font-face {
+  font-family: 'Anton';
+  src: url('@/assets/font/Anton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'Anton', sans-serif !important;
+}
+body {
+  height: 100vh;
+}
+#__nuxt {
+  height: 100%;
+}
+.brown-80-bg {
+  background-color: $brown-80;
+  color: $white-80;
+}
+.orange-80-bg {
+  background-color: $orange-80;
+  color: $white-80;
+}
+.white-80-bg {
+  background-color: $white-80;
+}
+.capitals {
+  text-transform: uppercase;
+}
+.orange-80-text {
+  color: $orange-80;
+}
+.brown-80-text {
+  color: $brown-80;
+}
+.white-80-text {
+  color: $white-80;
+}
+.pointer {
+  cursor: pointer
+}
